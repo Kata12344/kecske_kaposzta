@@ -1,0 +1,47 @@
+footer p{
+    background-color: aqua;
+}
+article{
+    background-color: aqua;
+}
+
+main{
+    max-width: 800px;
+    display: grid;
+    grid-template-areas: "h h h"
+                        "asb a asj"
+                        "f f f";
+}
+
+header{
+    grid-area: h;
+}
+
+#bal{
+    grid-area: asb;
+}
+
+article{
+    grid-area: a;
+}
+
+#jobb{
+    grid-area: asj;
+}
+
+footer{
+    grid-area: f;
+}
+
+main, header, #bal, #jobb, article, footer{
+    border: 1px solid black;
+}
+
+img{
+    max-width: 50px;
+}
+
+.kiemel{
+    border: 2px solid red;
+    cursor: grab;
+}
